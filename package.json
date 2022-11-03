@@ -1,0 +1,9 @@
+{
+  "dependencies": {
+    "firebase": "^9.13.0",
+    "react-router-dom": "^6.4.3"
+  },
+  "scripts": {
+    "build": "webpack --config webpack.config.js"
+  }
+}
