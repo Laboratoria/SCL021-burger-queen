@@ -14,7 +14,7 @@ import reportWebVitals from "./reportWebVitals";
 const root = ReactDOM.createRoot(document.getElementById("root"));
 
 function Greeting() {
-  const name = "Probando";
+  const name = "Ordena los commits antes de codear";
   const age = 2022;
   return (
     <h1>
