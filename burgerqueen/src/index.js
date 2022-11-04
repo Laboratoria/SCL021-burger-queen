@@ -1,14 +1,39 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link
+} from "react-router-dom";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+
+const root = ReactDOM.createRoot(document.getElementById("root"));
+
+function Greeting() {
+  const name = "Probando";
+  const age = 2022;
+  return (
+    <h1>
+      {name} {age}
+    </h1>
+  );
+
+  /*si funciona pero hay que eliminar la 14
+  const married = true
+  return <h1> {married ? 'estoy casado' : 'no estoy casado'} 
+  </h1>*/
+}
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+  <Greeting />
+
+  //<React.StrictMode>
+  //<App />
+  //</React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
