@@ -1,0 +1,57 @@
+:root{
+    width: 1280px;
+    height: 800px;
+  
+    background-image: url(../src/img/FondoDeBikini.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+
+}
+.App{
+    width: 1280px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: space-around;
+}
+.btns{
+    display: flex;
+    margin: 30px;
+    justify-content: space-around;
+}
+button{
+    box-sizing: border-box;
+    padding: 0;
+    justify-content: space-around;
+    align-items: center;    
+    width: 306px;
+    height: 170px;    
+    border-radius: 30px;
+    border: 1px solid transparent;  
+    margin: 20px;
+    font-size: 40px;
+    font-weight: 700;
+    color: rgba(177, 255, 77, 1);
+    transition: border-color 0.25s;
+}
+
+button:hover {
+    border-color: #646cff;
+  }
+  button:focus,
+  button:focus-visible {
+    outline: 4px auto -webkit-focus-ring-color;
+  }
+  
+  @media (prefers-color-scheme: light) {
+    :root {   
+      background-color: #ffffff;
+    }
+    a:hover {
+      color: rgba(177, 255, 77, 1);
+    }
+    button {
+      background-color: rgba(61, 171, 227, 0.8);
+    }
+  }

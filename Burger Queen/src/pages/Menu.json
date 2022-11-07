@@ -1,0 +1,66 @@
+{
+    "desayunos": [
+        {
+            "item": "Americano",
+            "price": 5
+        },
+        {
+            "item": "Café con Leche",
+            "price": 7
+        },
+        {
+            "item": "Jugo Natural",
+            "price": 7
+        },
+        {
+            "item": "Sandwich jamón queso",
+            "price": 7
+        }
+    ],
+    "Almuerzo/cena": [
+        {
+            "item": "CangreBurger simple",
+            "price": 10
+        },
+        {
+            "item": "CangreBurger doble",
+            "price": 15
+        },
+        {
+            "item": "papas fritas",
+            "price": 5
+        },
+        {
+            "item": "aros de cebolla",
+            "price": 5
+        },
+        {
+            "item": "Agua 500 ml",
+            "price": 5
+        },
+        {
+            "item": "Agua 750 ml",
+            "price": 7
+        },
+        {
+            "item": "Bebida 500 ml",
+            "price": 10
+        },
+        {
+            "item": "Agregado de queso",
+            "price": 1
+        },
+        {
+            "item": "Agregado de Huevo",
+            "price": 1
+        },
+        {
+            "item": "cangrecombo",
+            "price": 25
+        },
+        {
+            "item": "Pizza de Don Cangrejo",
+            "price": 30
+        }
+    ]
+}
