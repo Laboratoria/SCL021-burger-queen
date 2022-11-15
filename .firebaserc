@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "cyberQueen": "cyber-queen",
+    "default": "cyber-queen"
+  },
+  "targets": {},
+  "etags": {}
+}
