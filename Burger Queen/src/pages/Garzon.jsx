@@ -12,15 +12,15 @@ const Garzon = () => {
         </div>
         <div id="btns">
         <button>
-          <Link to="desayuno">Desayuno</Link>
+          <Link to="/desayuno">Desayuno</Link>
         </button>
         <button>
-          <Link to="AlmuezoCena">Almuerzo/Cena</Link>
+          <Link to="/almuezoCena">Almuerzo/Cena</Link>
         </button>
-        </div>
         <button className="volver">
           <Link to="/">Volver</Link>
         </button>
+        </div>
       </div>
     </>
   );

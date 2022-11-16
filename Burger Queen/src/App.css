@@ -31,13 +31,43 @@ h1 {
 }
 #btns{
   display: flex;
-  justify-content: space-around;  
+  justify-content: space-evenly;
   color: rgba(177, 255, 77, 1);;
+}
+.pedidos{
+  display: flex;
+  justify-content: space-around;
+}
+.menuContainer{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  }
+.items{
+  display: flex;
+  width: 50%;
+  height: 400px;
+}
+.resumenPedido{  
+  border-radius: 10px;
+  width: 50%;
+  height: 400px;
+}
+#inputs{
+  background-color: rgba(61, 171, 227, 1);
+  width:  468px;
+  height: 35px; 
+  border-radius: 10px;
 }
 
 .volver{
-  display: flex;
+  display: block;
+  position: fixed; 
+  margin-left: 900px;
+  width: 307px;
+  height: 100px;
 }
+
 
 /*#root { 
   max-width: 800px;
