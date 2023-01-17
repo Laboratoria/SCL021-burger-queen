@@ -1,0 +1,79 @@
+{
+    "drink":[
+        {
+            "id": 1,
+            "name": "Agua 500ml",
+            "image":"/img/agua.png",
+            "price":5
+        },
+        {
+            "id": 2,
+            "name": "Agua 700ml",
+            "image":"/img/water.png",
+            "price": 7
+        },
+        {
+            "id": 3,
+            "name": "Bebida 500ml",
+            "image":"/img/BEBIDA.png",
+            "price": 7
+        },
+        {
+            "id": 4,
+            "name": "Fluff Water",
+            "image":"/img/drink1.png",
+            "price": 8
+        },
+        {
+            "id": 5,
+            "name": "Ocean Fluid",
+            "image":"/img/drink2.png",
+            "price": 10
+        }
+    ],
+    "food": [
+        {
+            "id": 1,
+            "name": "Hamburguesa",
+            "image":"/img/hambsing.png",
+            "price": 10
+        },
+        {
+            "id": 2,
+            "name": "Hamburguesa Doble",
+            "image":"/img/hambdoble.png",
+            "price": 15
+        },
+        {
+            "id": 3,
+            "name": "Alien Wings",
+            "image":"/img/alienwings.png",
+            "price": 12
+        },
+        {
+            "id": 4,
+            "name": "Fries",
+            "image":"/img/fries.png",
+            "price": 7
+        }
+
+    ],
+    "extras":[
+        {
+            "id": 1,
+            "name": "Hamburguesa doble",
+            "price": 5  
+        },
+        {
+            "id": 2,
+            "name": "Huevo frito",
+            "price": 3  
+        },
+        {
+            "id": 3,
+            "name": "Queso cheddar",
+            "price": 2  
+        }
+    ]
+
+}

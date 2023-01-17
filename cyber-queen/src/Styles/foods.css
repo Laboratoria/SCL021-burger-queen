@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #1c142a;
+    text-align: left;
+}
+
+img {
+    height: 210px;
+    background: none;
+    filter:drop-shadow(8px 8px 4px) #1c142a;
+}
+.parentContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.foodContainer {
+    background-color: #56218C; 
+    border-radius: 10px;
+    width: 50%;
+    display: flex;   
+}
+
+.addBtn {
+    background-color: #DF81EB;
+}
+
+.deleteBtn {
+    white-space: pre;
+    background-color: #B9A7E7;
+}

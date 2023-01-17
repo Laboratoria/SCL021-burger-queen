@@ -1,0 +1,14 @@
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,600;0,700;1,600&family=Nunito:wght@200;300;600;800&display=swap");
+
+
+:root {
+  --bodyFont: "Nunito", sans-serif;
+  --darkBackground: #1C142A;
+  --trasnparencia: rgba(84, 40, 126, 0.5);
+  --lightBackg: #56218C;
+  --lilac: #B9A7E7;
+  --logoColor: #DF81EB;
+  --textLight: #E2D7D9;
+
+}
+

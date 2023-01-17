@@ -1,0 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Nunito", sans-serif;
+  color: #e2d7d9;
+  align-items: center;
+}
+
+
+.container {
+  background-image: "/img/vnqesSE.jpeg";
+  background-color: #1c142a;
+  margin-left: 25%;
+  margin-right: 25%;
+  width: 30vh;
+  height: 30vh;
+  background: rgba(84, 40, 126, 0.471);
+  border-radius: 66px;
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+h1 {
+  text-align: center;
+  margin: 5%;
+  font-size: 60px;
+  filter:drop-shadow(8px 8px 4px)#DF81EB; 
+  background: none;
+}
+
+.menuBTN {
+  background-color: #56218c;
+  border-radius: 10px;
+  margin: 0 25% 0 25%;
+  align-items: center;
+  vertical-align: center;
+  padding: 10px;
+  font-size: 30px;
+}
+
+button {
+  background-color: #56218c;
+  border-radius: 10px;
+  align-items: center;
+  vertical-align: center;
+  padding: 10px;
+  font-size: 30px;
+}

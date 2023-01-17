@@ -1,0 +1,14 @@
+body{
+    font-family: "Nunito", sans-serif;
+    font-size: 110%;
+    text-align: center;
+}
+
+.bigContainer{
+  margin: 3%;
+  border-color: #DF81EB;
+}
+
+button {
+    margin: 1%;
+}
